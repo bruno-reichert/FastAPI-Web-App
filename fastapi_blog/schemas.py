@@ -34,7 +34,7 @@ class PostBase(BaseModel):
     content : str = Field(min_length=1)
 
 class PostCreate(PostBase):
-    user_id: int # TEMPORARY, will be replaced with user authentication
+    pass # user authenticated, so no need for user_id field
 
 class PostUpdate(BaseModel):
     title: str | None = Field(default=None, min_length=1, max_length=100)
