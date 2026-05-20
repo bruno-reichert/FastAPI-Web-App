@@ -1,0 +1,3 @@
+
+password_for_postgres_admin = postgres
+password_for_bloguser = blogpass
